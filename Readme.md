@@ -48,7 +48,7 @@ This Sample Code contains a Azure AppService containing an ASP.net WebSite(inclu
 
 
 ## Contribution
-dkreuzh@microsoft.com, sv@daenet.de
+Daniel.Kreuzhofer@microsoft.com, sv@daenet.de
 
 
 
