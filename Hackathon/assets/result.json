@@ -1,0 +1,1412 @@
+{
+  "Title": "http://dkreuzhmediasvc01.blob.core.windows.net/asset-6bf82e3c-3406-420c-af8c-79633c55a110/tagesschau%2020-00%20Uhr,%2026.09.2016x.mp4",
+  "TotalLength": "0:15:17,525",
+  "DetectedPhrases": [
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Hier ist das erste deutsche Fernsehen mit der Tagesschau. ",
+          "Corrected": false,
+          "Offset": "0:00:26,48"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Regierungssprecher Seibert vordersitz in Syrien verbündeten Russland auf sich ein Ende des Krieges einzusetzen. ",
+          "Corrected": false,
+          "Offset": "0:00:33,297"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Moskau starte dem Assad Regime heute erneut den Rücken auch bei den angriffen auf Aleppo. ",
+          "Corrected": false,
+          "Offset": "0:00:38,872"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Im Kampf gegen Terroristen werde mal die Armee weiterhin unterstützen hieß es aus dem russischen Außenministerium. ",
+          "Corrected": false,
+          "Offset": "0:00:44,993"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Nach 5 Monaten komm zum ersten Mal wieder Hilfe von außen das O in Welt Ernährungs Programm dokumentiert die Ankunft deines hilfskonvoi sin ma da ja bei Damaskus. ",
+          "Corrected": false,
+          "Offset": "0:00:55,448"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Neben madeja Konnten 3 weitere von der Opposition kontrollierte Auto versagt werden die von der syrischen Armee eingeschlossen sind nach Aleppo dagegen können die Vereinten Nationen noch immer keine Hilfe schicken zu der landesdirektor des Welt Ernährungs Programms immerhin immer da ergibt jetzt vor heute für einen Monat. ",
+          "Corrected": false,
+          "Offset": "0:01:13,65"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Naja wenn wir hier Fragen was wollt ihr den Weg mitteilen dann sagen und die Leute wir wollen ein normales Leben ein Ende der Belagerung und sie Fragen was haben wir nur getan dass wir in dieser Na da sind wir ja in die Kirche in den Rebellen fährt in Aleppo so werden am Morgen kinderleichen aus träumen geboren. ",
+          "Corrected": false,
+          "Offset": "0:01:33,145"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Wo ist alle Wo ist nach UN Angaben den schwersten luftangriffen seit Beginn des Krieges ausgesehen? ",
+          "Corrected": false,
+          "Offset": "0:01:38,096"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Brandbomben Rundfunk abbrechen gefunden sollen die syrische und die russische Luftwaffe eingesetzt Apotheke Position der lokale Rad alles Wo ist meine Apps Selbstverwaltung der von der Opposition beherrschen Viertel vor dat eine Flugverbotszone dein Ende der Belagerung. ",
+          "Corrected": false,
+          "Offset": "0:01:55,076"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Russland hat die mit den USA ausgehandelt der waffenruhe mittlerweile für unwirksam der U anson der gesandte. ",
+          "Corrected": false,
+          "Offset": "0:02:01,626"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Noch Hoffnung Fischer auf die waffenruhe in einem schrecklichen Zustand aber sie ist noch nicht tot sagt er. ",
+          "Corrected": false,
+          "Offset": "0:02:08,168"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Doch das die Waffen in Syrien bald wieder schweigen erscheint ihr Zeit. ",
+          "Corrected": false,
+          "Offset": "0:02:12,491"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Kaum vorstellbar. ",
+          "Corrected": false,
+          "Offset": "0:02:14,307"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Der französische Präsident Roland hat angekündigt das umstrittene Flüchtlingscamp im Kalle. ",
+          "Corrected": false,
+          "Offset": "0:02:19,965"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Werde voll ständig daran. ",
+          "Corrected": false,
+          "Offset": "0:02:21,407"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Die Bewohner sollen auf andere Einrichtungen im Land verteilt werden. ",
+          "Corrected": false,
+          "Offset": "0:02:24,702"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "In calais sitzen Tausende Menschen fest die eigentlich nach Großbritannien vint den aber die Einreise verweigert wird. ",
+          "Corrected": false,
+          "Offset": "0:02:31,803"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Kritik an in Frankreich Geldauflage als Symbol für einen versagen des Staates angesichts der flüchtlingskrise. ",
+          "Corrected": false,
+          "Offset": "0:02:37,977"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Tag für Tag versuchen Flüchtling am eurotunnel auf Lastwagen zu klettern umso von Frankreich aus. ",
+          "Corrected": false,
+          "Offset": "0:02:43,994"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Egal auf die andere Seite des Ärmelkanal zu gelangen. ",
+          "Corrected": false,
+          "Offset": "0:02:47,148"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Die Bewohner von calais klagen über die unhaltbare Zustände. ",
+          "Corrected": false,
+          "Offset": "0:02:50,516"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Und auch die Lastwagenfahrer denn Sie werden häufig angegriffen und müssen hohe Strafe zahlen wenn sich Flüchtlinge auf jeden Lkw verstecken. ",
+          "Corrected": false,
+          "Offset": "0:02:58,583"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Die Hafenstadt calet das Symbol für Frankreich flüchtlingsproblem. ",
+          "Corrected": false,
+          "Offset": "0:03:02,328"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Seit Jahren sammeln sich hier diejenigen die Frankreich nur als Zwischenstation. ",
+          "Corrected": false,
+          "Offset": "0:03:06,402"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Auf ihrer Flucht nach Großbritannien See. ",
+          "Corrected": false,
+          "Offset": "0:03:08,462"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Bist du 10.000 Flüchtlinge Leben im sogenannten Dschungel ein Problem dass die sozialistische Regierung nicht mehr aufschieben konnte. ",
+          "Corrected": false,
+          "Offset": "0:03:15,379"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Die Präsidentschaftswahlen Rücken Nähe. ",
+          "Corrected": false,
+          "Offset": "0:03:17,537"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Staatspräsident Roland Besuch des war nicht den Dschungel selbstsicher du heute aber in calais dessen komplett der Räumung zu. ",
+          "Corrected": false,
+          "Offset": "0:03:23,958"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Nur so quickly schon klar wir wollen die Sicherheit Einwohner von calais garantiere. ",
+          "Corrected": false,
+          "Offset": "0:03:28,648"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Die öffentliche Ordnung erhalten und den Flüchtlingen würdige Lebensbedingungen zusichern gummigeruch. ",
+          "Corrected": false,
+          "Offset": "0:03:34,92"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Low",
+          "Content": "Ulrich je. ",
+          "Corrected": false,
+          "Offset": "0:03:36,044"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Dick rodizio Ding. ",
+          "Corrected": false,
+          "Offset": "0:03:37,622"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Noch vor dem Winter sollen die Flüchtlinge in ganz Frankreich verteilt werden. ",
+          "Corrected": false,
+          "Offset": "0:03:41,53"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Dort sollen neue Aufnahme Zentren in stehen und zwar mit festen Unterkünfte. ",
+          "Corrected": false,
+          "Offset": "0:03:45,818"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Dies in Frankreich bisher nicht genau. ",
+          "Corrected": false,
+          "Offset": "0:03:47,831"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Dennoch gibt es 2 floppy räumen des dschungels das flüchtlingsproblem lösen kann. ",
+          "Corrected": false,
+          "Offset": "0:03:52,136"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Wie steht er mit den geplanten Aufnahme Zentrum befürchten schon auch bei ihnen könnten trotz der geplanten festen Unterkünfte? ",
+          "Corrected": false,
+          "Offset": "0:03:58,848"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Neuhütten und secant Wien kann sie entstehen. ",
+          "Corrected": false,
+          "Offset": "0:04:01,771"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Die geplante gesetztes Reform zur Arbeit ist Bundesnachrichtendienst es bleibt umstritten das wurde in einer Anhörung des Innenausschuss es in Berlin deutlich auf dem Prüfstand ist der Entwurf der Koalition der auf Widerspruch in der Opposition stößt kritisch außer das ich heute auch der frühere bnb Präsident Schindler im Innenausschuss. ",
+          "Corrected": false,
+          "Offset": "0:04:21,822"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Aber griffes vor allem Überlegungen an. ",
+          "Corrected": false,
+          "Offset": "0:04:23,88"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Kontrolle der Ausland überwachen nicht im Parlament sondern einen neuen Gremium zu überlass. ",
+          "Corrected": false,
+          "Offset": "0:04:29,159"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "XB und die Chefin klar wurde erst kürzlich von der Bundesregierung abberufen im Innenausschuss kritisierte er die Koalition heute nun Chat vor allem ihren Plan die Genehmigung der auslands Überwachung nach der eine seafire einem neu zu schaffen in Kontrollgremium zu übertragen. ",
+          "Corrected": false,
+          "Offset": "0:04:45,37"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Danke für deine weitere parallel schutow geschaffen die aus meiner Sicht einer systematischen ganzheitlichen Kontrolle eher hinderlich. ",
+          "Corrected": false,
+          "Offset": "0:04:52,239"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Die Opposition sie das genauso sie kritisiert außerdem das die Mitglieder des neuen Kontrollgremium vom Bundeskanzleramt Anna und werden soll. ",
+          "Corrected": false,
+          "Offset": "0:05:00,302"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Kommt das Gesetz wie geplant für die klar. ",
+          "Corrected": false,
+          "Offset": "0:05:02,686"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Ist der Gang nach Karlsruhe zum bundesverfassung Thrones gerecht unausweichlich der wird vermutlich dort auch kassiert werden wenn die Koalition nicht noch deutlicher Veränderung vornimmt im Gesetzgebungsverfahren die Union verteidigt in Gesetzentwurf. ",
+          "Corrected": false,
+          "Offset": "0:05:19,108"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Gib Alarm 1.000 Kontrolle Lied darunter. ",
+          "Corrected": false,
+          "Offset": "0:05:21,437"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Dass ihr das Personal gefehlt hat um soll ich eine Kontrolle durch zuführen. ",
+          "Corrected": false,
+          "Offset": "0:05:24,773"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Mit dir schlafen eine ständige bevollmächtigen eines arbeitstages werden wir auf die parlamentarische Kontrolle. ",
+          "Corrected": false,
+          "Offset": "0:05:29,565"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Hoffe neues Niveau hin. ",
+          "Corrected": false,
+          "Offset": "0:05:30,674"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Bleibt ein Bild mit Seiten heizwerte ein x Geheimdienst Chef und ausgewiesene Geheimdienst krytyka in trauter Einigkeit. ",
+          "Corrected": false,
+          "Offset": "0:05:37,656"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "So deutliche und vor allem öffentliche Kritik an das Bier maligen bnb Chef ist außergewöhnlich und die trifft die Regierung Fraktionen schwer hatten die nach diversen Geheimdienst kann dein doch versprochen die Kontrolle des bnb effektiver zu gestalten der Druck nu nach zu bessern ist groß. ",
+          "Corrected": false,
+          "Offset": "0:05:55,481"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "In den USA laufen die Vorbereitungen für das erste TV Wahlkampf Duell zwischen der Demokraten Clinton und den bei publica Natur. ",
+          "Corrected": false,
+          "Offset": "0:06:03,507"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Der Schlagabtausch Soll 90 Minuten dauern und Stadt weltweit mit Spannung erwartet. ",
+          "Corrected": false,
+          "Offset": "0:06:08,386"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "6 Wochen vor der US Präsident Wahl liegen Clinton und ramtin Umfrage etwa gleich auch. ",
+          "Corrected": false,
+          "Offset": "0:06:14,193"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Die großen Sender werden seit Tagen heute Abend ist es soweit Hillary Clinton und donnell Trump treffen erstmal direkt aufeinander Zelten wurde eine Debatte mit mehr Spannung erwartet. ",
+          "Corrected": false,
+          "Offset": "0:06:24,776"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Fred im Vorfeld gibt es heftige Diskussionen über die Rolle des Moderators oder eingreifen solvent Fakten verdreht werde. ",
+          "Corrected": false,
+          "Offset": "0:06:31,117"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Internist dafür Tom strickt dagegen wenn das unfair. ",
+          "Corrected": false,
+          "Offset": "0:06:34,506"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Auch die unparteiisch noppeney Saturn de die Butter halt mein faktenscheck gespielt. ",
+          "Corrected": false,
+          "Offset": "0:06:38,462"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Hallo wie gehts dir grade wieder moderato kann ich die Entwicklung Media britannica sein. ",
+          "Corrected": false,
+          "Offset": "0:06:42,837"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Bitte rieker es war deine Unterstützung Rolle spielen und ich darauf verlassen dass die Kandidaten sich gegenseitig korrigiere ziegltrum. ",
+          "Corrected": false,
+          "Offset": "0:06:50,04"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Low",
+          "Content": "Ich hab 30 siebter. ",
+          "Corrected": false,
+          "Offset": "0:06:51,587"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Clinton späte candidature DE hoffe Tom werde auf detaillierte Fragen Antworten müssen. ",
+          "Corrected": false,
+          "Offset": "0:06:56,664"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Wir werden sehen ob er überhaupt erklären kann ich liege genau sein Plan aus. ",
+          "Corrected": false,
+          "Offset": "0:07:01,931"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Ob er Fragen beantworten. ",
+          "Corrected": false,
+          "Offset": "0:07:03,735"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Ja genau Siri nach seiner Steuererklärung welcher Tag triton in schon lange hält mein Stil vor ebenso wichtig wie Inhalt Roland über wie viele Leute mögen odonnell stramm stehen das er bereit ist Möbel zu zerschlagen er sollte also versuchen ersetzt zu sein in der Debatte und gleichzeitig zeigen dass er das keinen hat Präsident Es geht um sehr viel bei der Debatte mehr als ein Fünftel der balleis Maronen Chief. ",
+          "Corrected": false,
+          "Offset": "0:07:31,547"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Clinton und warm werden aber nicht nur wegen den jeweils anderen zu kämpfen haben sondern auch. ",
+          "Corrected": false,
+          "Offset": "0:07:36,034"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Gegen das eigene Image laut Umfragen sind beide unbeliebter als hier ein Kandidat zuvor. ",
+          "Corrected": false,
+          "Offset": "0:07:41,692"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Und wenn sie das TV Duell live erleben wollen das erste überträgt die Debatte heute Nacht in einer sondersendung um 02:55 Uhr. ",
+          "Corrected": false,
+          "Offset": "0:07:50,568"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Zudem kann sie das Duell bei uns im Internet verfolgen auf Tagesschau DE. ",
+          "Corrected": false,
+          "Offset": "0:07:54,516"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Wir überlegen von Serben bewohnte Teil von Bosnien und herzegowina behältst einen umstrittenen Nationalfeiertag. ",
+          "Corrected": false,
+          "Offset": "0:08:02,256"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "99,8 Prozent der Bürger der republika srpska. ",
+          "Corrected": false,
+          "Offset": "0:08:06,781"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Hätten in den gestrigen Referendum dafür gestimmt halten die dortigen behördennetz. ",
+          "Corrected": false,
+          "Offset": "0:08:11,036"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Ja Feiertag am 9. Januar markiert die Gründung der republika srpska vor 24 Jahre. ",
+          "Corrected": false,
+          "Offset": "0:08:17,375"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Und war einer der Auslöser des bosnienkrieg. ",
+          "Corrected": false,
+          "Offset": "0:08:20,175"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Wasserfass aufs Gericht von Bosnien und herzegowina hatte die Abstimmung verboten. ",
+          "Corrected": false,
+          "Offset": "0:08:24,105"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Alles neue Ergebnisse Spannungen befürchtet. ",
+          "Corrected": false,
+          "Offset": "0:08:26,752"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Ich war Grad so nen über eine Kapitalerhöhung bei der Deutschen Bank haben die Aktien des Instituts auf ein rekordtief gedrückt. ",
+          "Corrected": false,
+          "Offset": "0:08:34,271"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Wir brachen heute in Frankfurt und gut 7,5 Prozent auf € 10,55 ein damit schloss das Papier so tief wie noch nie zuvor in der Unternehmensgeschichte. ",
+          "Corrected": false,
+          "Offset": "0:08:44,578"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Hintergrund ist die Drohne mit Jahren Strafe wegen Hypotheken geschäften in den USA. ",
+          "Corrected": false,
+          "Offset": "0:08:49,585"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Nervös ist die Stimmung am deutschen Aktienmarkt heute Gerüchte über abgelehnte Starthilfe für die Deutsche Bank. ",
+          "Corrected": false,
+          "Offset": "0:08:55,294"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Was macht den Hintern auf dem Parkett so? ",
+          "Corrected": false,
+          "Offset": "0:08:57,301"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Der Kurs von Deutschlands größtem geldhaus ist seit Beginn der Finanzkrise 2 Tausend 7 um 90 Prozent gefallen. ",
+          "Corrected": false,
+          "Offset": "0:09:03,273"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Und stürzt heute erneut. ",
+          "Corrected": false,
+          "Offset": "0:09:04,863"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Auf ricordi. ",
+          "Corrected": false,
+          "Offset": "0:09:05,674"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Jetzt du denkst du wirklich zu groß auf diese Bank gerettet werden muss möglicherweise weil keiner weiß wie groß die riesigen sind die in den büchern schlummern und aktuell rote ein us Strafe Milliarden her und Alarm jetzt Angst dass sie Deutsche Bank das möglicherweise nicht alleine Pack. ",
+          "Corrected": false,
+          "Offset": "0:09:19,794"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "In den USA brodier wegen umstrittener Hypotheken Geschäfte eine Rekord Strafe von rund um 12 ein halb Milliarden Euro für alle Anhänge in Rund 8 1.000 weltweiten Rechtsstreitigkeiten hat die Bank aber nur 5 einhalb Milliarden Euro zurückgestellt. ",
+          "Corrected": false,
+          "Offset": "0:09:33,053"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Die Hoff die Strafe für drücken zu können. ",
+          "Corrected": false,
+          "Offset": "0:09:35,133"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Das Deutsche Bank Chef kreien Kanzlerin Merkel um Hilfe gebeten hat Bild von beiden Seiten Dementi. ",
+          "Corrected": false,
+          "Offset": "0:09:40,303"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Es gibt keinen Anlass für solche Spekulationen wie sie. ",
+          "Corrected": false,
+          "Offset": "0:09:44,526"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Da angestellt werden und die Bundesregierung beteiligt sich auch an solchen Spekulation. ",
+          "Corrected": false,
+          "Offset": "0:09:49,026"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Danke freuen uns auf Vorstandsvorsitzender hat zu keinem Zeitpunkt die Bundeskanzlerin. ",
+          "Corrected": false,
+          "Offset": "0:09:53,666"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Darum gebeten. ",
+          "Corrected": false,
+          "Offset": "0:09:54,602"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Im rechts Verfahren mit den Weinbergen Justizminister in der Vereinigten Staaten ein zugreifen und das Recht nicht hatte sie auf Stativ angesprochen. ",
+          "Corrected": false,
+          "Offset": "0:10:01,459"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Aktien aus zu geben um ein frisches Geld zu komm schließ die Bank aus. ",
+          "Corrected": false,
+          "Offset": "0:10:04,929"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Eigenkapital deine doppelt so viel vor der Finanzkrise zu der Sprecher. ",
+          "Corrected": false,
+          "Offset": "0:10:08,786"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "In Berlin stehen die Zeichen eine Woche nach der Abgeordnetenhaus Wahl auf rot rot grün. ",
+          "Corrected": false,
+          "Offset": "0:10:14,738"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Die Spitzen von SPD linken und Grünen empfehlen ihren Parteien die Aufnahme von Koalitionsverhandlungen. ",
+          "Corrected": false,
+          "Offset": "0:10:20,821"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Bei dem sanierungs Gesprächen habe sich gezeigt. ",
+          "Corrected": false,
+          "Offset": "0:10:23,173"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Ist die 3 Parteien im wichtigen Bereichen für die Stadt gemeinsam deutlich voran kommen wollte. ",
+          "Corrected": false,
+          "Offset": "0:10:28,598"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Sag mir die regierende Bürgermeister Müller von der SPD. ",
+          "Corrected": false,
+          "Offset": "0:10:31,654"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Seit heute steht der frühe Agent Werner Maus in Bochum vor Gericht. ",
+          "Corrected": false,
+          "Offset": "0:10:35,987"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Wie wird vorgeworfen durch Geldanlagen im Ausland Etwa 15 Millionen Euro Steuern hinterzogen zu haben? ",
+          "Corrected": false,
+          "Offset": "0:10:41,674"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Zum auch dazu äußerte sich der 76 jährige mich. ",
+          "Corrected": false,
+          "Offset": "0:10:45,033"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Er habe das Vermögen nur als Treuhänder verwaltet so seine Verteidiger. ",
+          "Corrected": false,
+          "Offset": "0:10:48,928"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Und dürfen sich aus Geheimhaltung sh Gründen nicht ohne aussagegenehmigung zur Sache euch. ",
+          "Corrected": false,
+          "Offset": "0:10:53,762"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Netzbetreiber tenet hat heute den bayerischen Landtag seine Pläne für den Verlauf der umstrittenen Stromkabel von Nord nach Süddeutschland vorgestellt Navigation des bayerischen rundfunks bleiben bei dem geplanten Ausbau der sogenannten stromautobahn. ",
+          "Corrected": false,
+          "Offset": "0:11:08,982"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Aber weiter viele Fragen offen. ",
+          "Corrected": false,
+          "Offset": "0:11:10,877"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Nicht so soll es aussehen sondern so erdkabel sollen voran bekomm. ",
+          "Corrected": false,
+          "Offset": "0:11:15,017"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Damit kommt Netzbetreiber Tennis in vielen bürgerproteste naber auf der PS mit gegen die Trassen lange bekämpfe und sie jetzt akzeptiert. ",
+          "Corrected": false,
+          "Offset": "0:11:22,572"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Es ist eben keine monstertrasse dich gibt es nicht mehr in Bayern Sonne es ist alles jetzt verkabelt und wir suchen trotzdem die bestmögliche Möglichkeit. ",
+          "Corrected": false,
+          "Offset": "0:11:30,034"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Such Bayern durch zu kommen. ",
+          "Corrected": false,
+          "Offset": "0:11:31,122"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Nach Information in der ARD schlägt an Edmund mehrere korridore für die beiden hauptschlagader in der Energiewende vor. ",
+          "Corrected": false,
+          "Offset": "0:11:37,483"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Der südlichen soll das Norddeutschlands sauber den Wind Strom in den Energie armen Süden bringen genau so wieder südhoff. ",
+          "Corrected": false,
+          "Offset": "0:11:43,841"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Sensible Natural mir wie die Rhön der Spessart oder das fichtelgebirge sollen umgangen werden. ",
+          "Corrected": false,
+          "Offset": "0:11:48,984"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Diese Varianten sollen jetzt mit den betroffenen bürgern diskutiert werden die bayrischen Grünen stellen allerdings den voran verehrt Verkabelung in Frage. ",
+          "Corrected": false,
+          "Offset": "0:11:57,027"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Wenn nicht ist auch nicht ganz entscheidend die Debatte wie das Wort umgesetzt werd das mit der betroffene Menschen fortgeführt werden mit dem Landrat ist die freileitung vielleicht bei demodex besser als der Verkabelung oder andersrum. ",
+          "Corrected": false,
+          "Offset": "0:12:09,004"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Den erdkabel sind teurer als freileitungen zu den beklagen die Netzbetreiber höhere Kosten durch den Zügel ich Bau umgelegt werden soll das auf die Verbraucher Wir haben für tenet selbst gesagt dass unser netzentgelt Erhöhung Etwa 30 Euro für einen Haushalt in Deutschland pro Jahr. ",
+          "Corrected": false,
+          "Offset": "0:12:26,427"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Der bürgerdialog muss nun zeigen ob die Pläne der betroffenen Bevölkerung überhaupt vermittelbar sein werden. ",
+          "Corrected": false,
+          "Offset": "0:12:32,562"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Markus Gisdol soll den Hamburger SV als neuer Cheftrainer aus der Krise führen. ",
+          "Corrected": false,
+          "Offset": "0:12:38,237"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "47 jährige leitete heute erstmals das Training des Tabellen vorletzten der Fußball Bundesliga. ",
+          "Corrected": false,
+          "Offset": "0:12:44,239"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Von seinem Vorgänger Bruno Labbadia hatte sich der HSV gestern wegen erfolglos ich gerade getrennt. ",
+          "Corrected": false,
+          "Offset": "0:12:49,282"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Gehst du als letzte trainerstationen bar Hafen. ",
+          "Corrected": false,
+          "Offset": "0:12:52,06"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Und nun die Wettervorhersage für morgen Dienstag, den 27. September. ",
+          "Corrected": false,
+          "Offset": "0:12:57,429"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Im Westen und Osten Deutschlands wird es morgen unter Hochdruck Einfluss recht freundlich dazwischen halten sich noch die Wolken eine Steve Ausläufer. ",
+          "Corrected": false,
+          "Offset": "0:13:05,715"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Und die bringen heute Nacht einzelne Schauer im Westen und Osten dagegen zum Teil klar. ",
+          "Corrected": false,
+          "Offset": "0:13:10,284"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Am Tag ähnlich vom Südwesten bis in den Nordosten reicht ein wollten Band mit einen schönen schauen am Nachmittag sind auch Gewitter dabei. ",
+          "Corrected": false,
+          "Offset": "0:13:17,707"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Sonst überwiegend freundlich und trocken. ",
+          "Corrected": false,
+          "Offset": "0:13:19,851"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "An der See und am Oberrhein heute noch bis 14 im Bayerischen Wald nur 5 Grad. ",
+          "Corrected": false,
+          "Offset": "0:13:24,393"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Morgen 18 Grad am Alpenrand bis 23 Grad in der Lausitz. ",
+          "Corrected": false,
+          "Offset": "0:13:28,729"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Am Mittwoch im Süden überwiegend freundlich sonst also nit als Wolken und einzelne Schauer im Norden bin dich. ",
+          "Corrected": false,
+          "Offset": "0:13:34,85"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Donnerstag und Freitag nach Nebel Auflösung meist sonnig hier im Norden bleibt es überwiegend wechselhaft und windig. ",
+          "Corrected": false,
+          "Offset": "0:13:40,969"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Um 22:15 Uhr hat Thomas Roth diese Tagesthemen für sie. ",
+          "Corrected": false,
+          "Offset": "0:13:45,029"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "High",
+          "Content": "Showdown im Fernseh Studio Stunden vor dem ersten TV Duell zwischen Clinton und Trump sowie Abkehr vom Krieg wie Kolumbien mit F*** Rebellen Frieden schließen. ",
+          "Corrected": false,
+          "Offset": "0:13:55,465"
+        }
+      ]
+    },
+    {
+      "Phrase": [
+        {
+          "Confidence": "Normal",
+          "Content": "Ich wünsche ihnen noch einen schönen Tag. ",
+          "Corrected": false,
+          "Offset": "0:13:56,873"
+        }
+      ]
+    }
+  ],
+  "Entities" : [{
+			"Entity" : "Norden",
+			"Accepted" : false
+		}, {
+			"Entity" : "Trump",
+			"Accepted" : false
+		}, {
+			"Entity" : "TV Duell",
+			"Accepted" : false
+		}, {
+			"Entity" : "Abkehr",
+			"Accepted" : false
+		}, {
+			"Entity" : "Clinton",
+			"Accepted" : false
+		}, {
+			"Entity" : "Fernseh Studio Stunden",
+			"Accepted" : false
+		}, {
+			"Entity" : "nit",
+			"Accepted" : false
+		}, {
+			"Entity" : "Kolumbien",
+			"Accepted" : false
+		}, {
+			"Entity" : "Krieg",
+			"Accepted" : false
+		}, {
+			"Entity" : "Wolken",
+			"Accepted" : false
+		}, {
+			"Entity" : "einzelne Schauer",
+			"Accepted" : false
+		}, {
+			"Entity" : "Showdown",
+			"Accepted" : false
+		}, {
+			"Entity" : "Thomas Roth",
+			"Accepted" : false
+		}, {
+			"Entity" : "Tagesthemen",
+			"Accepted" : false
+		}, {
+			"Entity" : "Nebel Auflösung",
+			"Accepted" : false
+		}, {
+			"Entity" : "Rebellen Frieden",
+			"Accepted" : false
+		}, {
+			"Entity" : "Alpenrand",
+			"Accepted" : false
+		}, {
+			"Entity" : "Lausitz",
+			"Accepted" : false
+		}
+	]
+}
