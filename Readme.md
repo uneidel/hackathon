@@ -3,22 +3,23 @@
 This Sample Code contains a Azure AppService containing an ASP.net WebSite(including a angularjs SPA) & Asp Web Job analyzing  Videos.
 
 
-Current Workflow:
-1) Encode Video
-2) Split Audio (using ffmpeg to find silence Sections) - Splitting currently done with naudio.
-3) Each < 20 sec Chunk will be passed to Azure Cognitive Services Speech to Text API returning pure Text
-4) After all text is returned keywords and Entities are extracted  via Cognitive Services.
-5) Face Recognized will be implemented soon.
+####Current Workflow:
+1) Encode Video       
+2) Split Audio (using ffmpeg to find silence Sections) - Splitting currently done with naudio.        
+3) Each < 20 sec Chunk will be passed to Azure Cognitive Services Speech to Text API returning pure Text       
+4) After all text is returned keywords and Entities are extracted  via Cognitive Services.       
+5) Face Recognized will be implemented soon.       
 
 
-Architecture: 
+#####Architecture: 
+![alt text](https://github.com/uneidel/hackathon/blob/master/Architecture.PNG "Architecture")
+
+#####Screenshots:
+![alt text](https://github.com/uneidel/hackathon/blob/master/Editor.PNG "Editor")
+![alt text](https://github.com/uneidel/hackathon/blob/master/ProcessVideo1.PNG "Process")
 
 
-Screenshots:
-
-
-
-Requirements:
+#####Requirements:
  - Azure Subscription
  - Media Services (including Encoding Unit, Streaming Unit)
  - Storage Account 
@@ -27,7 +28,7 @@ Requirements:
 
 
 
- Neccessary Configuration:
+ ###Neccessary Configuration:
 
  Hackathon web.config: 
  <add key="MediaServicesAccountName"			value=""/>
@@ -35,16 +36,14 @@ Requirements:
  <add key="MediaServicesStorageAccountName"		value="" />
  <add key="MediaServicesStorageAccountKey"		value="" />
 
- HackathonnBGWorker app.config:
+ #HackathonnBGWorker app.config:
  <add key="languageCode" value="de-de" />
  <add key="ttsSubscriptionKey" value="" />
  <add key="TextAnalysisKey" value="" />
  <add key="EntityLinkingKey" value=""/>
 
 
- Download FFMPeg from https://www.ffmpeg.org and place it into HackathonnBGWorker Tools Folder (Please set Copy if newer -> Always) 
-
-
+ ###Download FFMPeg from https://www.ffmpeg.org and place it into HackathonnBGWorker Tools Folder (Please set Copy if newer -> Always) 
 
 
 
