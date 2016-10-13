@@ -17,9 +17,14 @@ namespace Hackathon.Controllers
         // POST: api/Config
         public string Post([FromBody]string burl)
         {
-            var url = Base64Decode(burl);
-            WebClient c = new WebClient();
-            var config = c.DownloadString(url);
+            string config = String.Empty;
+            try
+            {
+                var url = Base64Decode(burl);
+                WebClient c = new WebClient();
+                config = c.DownloadString(url);
+            }
+            catch { }
             return config;
         }
         private static string Base64Decode(string base64EncodedData)

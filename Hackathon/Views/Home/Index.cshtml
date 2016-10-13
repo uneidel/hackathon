@@ -18,17 +18,17 @@
                 <div class="panel-body">
                     <button type="button" ng-click="open()" class="btn btn-default">Process Video</button>
                     <!--<a href="#" ng-click="open()" class="btn btn-default">Process Video</a>-->
-                    
+
                     <div class="input-group" style="margin-top:10px;">
-                        <button type="button"  ng-click="LoadXml()" class="btn btn-default">Load</button>
+                        <button type="button" ng-click="LoadXml()" class="btn btn-default">Load</button>
                         <!--<span class="input-group-addon" id="basic-addon1">MetaDataXml:</span>-->
-                        <input type="text" ng-model="metaxml" style="width:150px"  />
-                        
-                        
+                        <input type="text" ng-model="metaxml" style="width:150px" />
+
+
                     </div>
                 </div>
             </div>
-           
+
             <script type="text/ng-template" id="processDialog">
                 <div class="ngdialog-message">
                     <h2>Process Video for Analysis</h2>
@@ -40,7 +40,7 @@
                     <div ng-show="ShowFinalLink">
                         <span>Link To Result:</span>
                         <input type="text" ng-model="finalLink" />
-                    </div> 
+                    </div>
                 </div>
                 <div class="ngdialog-buttons mt">
                     <!--<button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="Close()">Close and Edit</button>-->
@@ -49,68 +49,81 @@
         </div>
     </div>
     <div ng-hide="HideEditorPane">
-    <div class="row" >
-        
-        <div class="col-md-12">
-            <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" tabindex="0"></video>
+        <div class="row">
+
+            <div class="col-md-12">
+                <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" tabindex="0"></video>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <h3>Timeline</h3>
-        <label>Timecodes for texts with a normal or low confidence in precision</label>
-        <br />
-        <div class="col-md-12">
-           
-                <button  ng-repeat="item in viewData.DetectedPhrases | filter: filterConfidence" class="btn" ng-class="{'btn-danger': (item.Phrase[0].Confidence == 'Low'),'btn-warning': (item.Phrase[0].Confidence == 'Normal'),'btn-success': (item.Phrase[0].Confidence == 'High')}"
-                        ng-click="setTimeAndCaption(item.Phrase[0])">
-                    {{item.Phrase[0].Offset}}
-                </button>
-            
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading"><span style="font-weight:bold">Timeline</span></div>
+                <div class="panel-body">
+
+                    <label>Timecodes for texts with a normal or low confidence in precision</label>
+                    <br />
+                    <div class="col-md-12">
+                        <button ng-repeat="item in viewData.DetectedPhrases | filter: filterConfidence" class="btn" ng-class="{'btn-danger': (item.Phrase[0].Confidence == 'Low'),'btn-warning': (item.Phrase[0].Confidence == 'Normal'),'btn-success': (item.Phrase[0].Confidence == 'High')}"
+                                ng-click="setTimeAndCaption(item.Phrase[0])">
+                            {{item.Phrase[0].Offset}}
+                        </button>
+                    </div>
+                    <div style="padding-left:20px;" class="row">
+                        <h3>Recognized text</h3>
+                        <textarea id="m_CaptionText" style="float:left;width:200px" rows="4" cols="80" ng-model="currentCaptionContent"></textarea>
+                        <button class="btn btn-default pull-right" ng-click="updateCaption()">Update</button>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <h3>Recognized text</h3>
-        <textarea id="m_CaptionText" class="col-md-12" style="width:100%" ng-model="currentCaptionContent"></textarea>
-        <button class="btn btn-default pull-right" ng-click="updateCaption()">Update</button>
-    </div>
-    <div class="row">
-        <h3>Keywords</h3>
-        <div class="col-md-12">
-            <button class="btn btn-default"
-                    ng-repeat="item in viewData.Entities"
-                    ng-click="flagKeyword(item)"
-                    ng-class="{true:'btn-success', false:'btn-warning'}[item.Accepted]">
-                {{item.name}}
-            </button>
-        </div>
-        <div class="col-md-12">
-            <hr />
-        </div>
-        <div class="col-md-4">
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Add keyword..." ng-model="newKeyword">
-                <span class="input-group-btn">
-                    <button class="btn btn-default" type="button" ng-click="addKeyword()">Add</button>
-                </span>
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading"><span style="font-weight:bold">Keywords</span></div>
+                <div class="panel-body">
+
+                    <div class="col-md-12">
+                        <button class="btn btn-default"
+                                ng-repeat="item in viewData.Entities"
+                                ng-click="flagKeyword(item)"
+                                ng-class="{true:'btn-success', false:'btn-warning'}[item.Accepted]">
+                            {{item.name}}
+                        </button>
+                    </div>
+                    <div class="col-md-12">
+                        <hr />
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Add keyword..." ng-model="newKeyword">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button" ng-click="addKeyword()">Add</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><span style="font-weight:bold">Full outline</span></div>
+                    <div class="panel-body">
+                        <textarea class="col-md-12" ng-model="fullCaption"></textarea>
+                        <button class="btn btn-default pull-right" ng-click="refreshFull()">Refresh</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <h3>Full outline</h3>
-        <textarea class="col-md-12" ng-model="fullCaption"></textarea>
-        <button class="btn btn-default pull-right" ng-click="refreshFull()">Refresh</button>
-    </div>
-    </div>
-</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-<script src="https://code.angularjs.org/1.5.7/angular-route.js"></script>
-<script src="//amp.azure.net/libs/amp/1.7.4/azuremediaplayer.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.7/angular-route.js"></script>
+    <script src="//amp.azure.net/libs/amp/1.7.4/azuremediaplayer.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-<script src="../../assets/js/ngdialog.min.js" type="text/javascript"></script>
-<script src="../../assets/js/app.js" type="text/javascript"></script>
-<script src="../../assets/js/editorController.js" type="text/javascript"></script>
-<script src="../../assets/js/timelineMarkers.js" type="text/javascript"></script>
+    <script src="../../assets/js/ngdialog.min.js" type="text/javascript"></script>
+    <script src="../../assets/js/app.js" type="text/javascript"></script>
+    <script src="../../assets/js/editorController.js" type="text/javascript"></script>
+    <script src="../../assets/js/timelineMarkers.js" type="text/javascript"></script>
