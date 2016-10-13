@@ -15,7 +15,7 @@ This Sample Code contains a Azure AppService containing an ASP.net WebSite(inclu
 ![alt text](https://github.com/uneidel/hackathon/blob/master/Architecture.PNG "Architecture")
 
 #####Screenshots:
-![alt text](https://github.com/uneidel/hackathon/blob/master/Editor.PNG "Editor")
+![alt text](https://github.com/uneidel/hackathon/blob/master/Editor1.PNG "Editor")
 ![alt text](https://github.com/uneidel/hackathon/blob/master/ProcessVideo1.PNG "Process")
 
 
