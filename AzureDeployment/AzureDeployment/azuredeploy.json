@@ -1,0 +1,152 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "accounts_cogserv_speech_name": {
+            "defaultValue": "cogserv_speech",
+            "type": "String"
+        },
+        "accounts_cogsrv_textanalytics_name": {
+            "defaultValue": "cogsrv_textanalytics",
+            "type": "String"
+        },
+        "mediaservices_mediasvc_name": {
+            "defaultValue": "mediasvc01",
+            "type": "String"
+        },
+        "storageAccounts_mediasvc_name": {
+            "defaultValue": "storagemediasvc01",
+            "type": "String"
+        },
+        "serverfarms_plan_name": {
+            "defaultValue": "webplan01",
+            "type": "String"
+        },
+        "sites_webapp_name": {
+            "defaultValue": "webapp01",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "comments": "Speech recognition account",
+            "type": "Microsoft.CognitiveServices/accounts",
+            "sku": {
+                "name": "S0"
+            },
+            "kind": "Bing.Speech",
+            "name": "[parameters('accounts_cogserv_speech_name')]",
+            "apiVersion": "2016-02-01-preview",
+            "location": "global",
+            "properties": {},
+            "resources": [],
+            "dependsOn": []
+        },
+        {
+            "comments": "Text analysis account",
+            "type": "Microsoft.CognitiveServices/accounts",
+            "sku": {
+                "name": "S1"
+            },
+            "kind": "TextAnalytics",
+            "name": "[parameters('accounts_cogsrv_textanalytics_name')]",
+            "apiVersion": "2016-02-01-preview",
+            "location": "westus",
+            "properties": {},
+            "resources": [],
+            "dependsOn": []
+        },
+        {
+            "comments": "Media service for processing video files",
+            "type": "Microsoft.Media/mediaservices",
+            "name": "[parameters('mediaservices_mediasvc_name')]",
+            "apiVersion": "2015-10-01",
+            "location": "[resourceGroup().location]",
+            "properties": {
+                "storageAccounts": [
+                    {
+                        "id": "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mediasvc_name'))]",
+                        "isPrimary": true
+                    }
+                ]
+            },
+            "resources": [],
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mediasvc_name'))]"
+            ]
+        },
+        {
+            "comments": "Storage account where media files will be uploaded and processed",
+            "type": "Microsoft.Storage/storageAccounts",
+            "sku": {
+                "name": "Standard_LRS",
+                "tier": "Standard"
+            },
+            "kind": "Storage",
+            "name": "[parameters('storageAccounts_mediasvc_name')]",
+            "apiVersion": "2016-01-01",
+            "location": "[resourceGroup().location]",
+            "tags": {},
+            "properties": {},
+            "resources": [],
+            "dependsOn": []
+        },
+        {
+            "comments": "WebApp plan for hosting the media upload website",
+            "type": "Microsoft.Web/serverfarms",
+            "sku": {
+                "name": "B1",
+                "tier": "Basic",
+                "size": "B1",
+                "family": "B",
+                "capacity": 1
+            },
+            "name": "[parameters('serverfarms_plan_name')]",
+            "apiVersion": "2015-08-01",
+            "location": "[resourceGroup().location]",
+            "properties": {
+                "name": "[parameters('serverfarms_plan_name')]",
+                "numberOfWorkers": 1
+            },
+            "resources": [],
+            "dependsOn": []
+        },
+        {
+            "comments": "WebApp for hosting the media upload and encoding site",
+            "type": "Microsoft.Web/sites",
+            "name": "[parameters('sites_webapp_name')]",
+            "apiVersion": "2015-08-01",
+            "location": "[resourceGroup().location]",
+            "properties": {
+                "name": "[parameters('sites_webapp_name')]",
+                "hostNames": [
+                    "[concat(parameters('sites_webapp_name'), '.azurewebsites.net')]"
+                ],
+                "enabledHostNames": [
+                    "[concat(parameters('sites_webapp_name'), '.azurewebsites.net')]",
+                    "[concat(parameters('sites_webapp_name'), '.scm.azurewebsites.net')]"
+                ],
+                "hostNameSslStates": [
+                    {
+                        "name": "[concat(parameters('sites_webapp_name'),'.azurewebsites.net')]",
+                        "sslState": 0,
+                        "thumbprint": null,
+                        "ipBasedSslState": 0
+                    },
+                    {
+                        "name": "[concat(parameters('sites_webapp_name'),'.scm.azurewebsites.net')]",
+                        "sslState": 0,
+                        "thumbprint": null,
+                        "ipBasedSslState": 0
+                    }
+                ],
+                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('serverfarms_plan_name'))]"
+            },
+            "resources": [],
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/serverfarms', parameters('serverfarms_plan_name'))]"
+            ]
+        }
+    ]
+}

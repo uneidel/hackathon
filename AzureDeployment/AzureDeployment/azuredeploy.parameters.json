@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "accounts_cogserv_speech_name": {
+            "value": "speechservice01"
+        },
+        "accounts_cogsrv_textanalytics_name": {
+            "value": "textanalysis01"
+        },
+        "storageAccounts_mediasvc_name": {
+            "value": "dkreuzhmediastorage01"
+        },
+        "mediaservices_mediasvc_name": {
+            "value": "dkreuzhmedia01"
+        },
+        "serverfarms_plan_name": {
+            "value": "dkreuzhplan01"
+        },
+        "sites_webapp_name": {
+            "value": "dkreuzhwebapp02"
+        }
+    }
+}
