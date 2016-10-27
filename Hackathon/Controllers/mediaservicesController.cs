@@ -37,7 +37,7 @@ namespace Hackathon.Controllers
             if (job.State == JobState.Processing)
                 jobStatus.Status = "Processing";
             if (job.State == JobState.Error)
-                jobStatus.Status = "Processing";
+                jobStatus.Status = "Error";
             if (job.State == JobState.Queued)
                 jobStatus.Status = "Processing";
             if (job.State == JobState.Finished)

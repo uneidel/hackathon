@@ -59,6 +59,8 @@ namespace HackthonBGWorker.Entities
         public List<DetectedPhrase> DetectedPhrases { get; set; }
         public List<Entity> Entities { get; set; }
         public List<KeywordModel> Keywords { get; set; }
+
+        public dynamic Celebs { get; set; }
     }
 
 }

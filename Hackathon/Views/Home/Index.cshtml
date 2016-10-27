@@ -79,7 +79,7 @@
         </div>
         <div class="row">
             <div class="panel panel-default">
-                <div class="panel-heading"><span style="font-weight:bold">Keywords</span></div>
+                <div class="panel-heading"><span style="font-weight:bold">Entities</span></div>
                 <div class="panel-body">
 
                     <div class="col-md-12">
@@ -95,6 +95,33 @@
                     </div>
                     <div class="col-md-4">
                         <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Add Entity..." ng-model="newKeyword">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button" ng-click="addKeyword()">Add</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading"><span style="font-weight:bold">Keywords</span></div>
+                <div class="panel-body">
+
+                    <div class="col-md-12">
+                        <button class="btn btn-default"
+                                ng-repeat="item in viewData.Keywords"
+                                ng-click="flagKeyword(item)"
+                                ng-class="{true:'btn-success', false:'btn-warning'}[item.Accepted]">
+                            {{item.Entity}}
+                        </button>
+                    </div>
+                    <div class="col-md-12">
+                        <hr />
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-group">
                             <input type="text" class="form-control" placeholder="Add keyword..." ng-model="newKeyword">
                             <span class="input-group-btn">
                                 <button class="btn btn-default" type="button" ng-click="addKeyword()">Add</button>
@@ -103,27 +130,48 @@
                     </div>
                 </div>
             </div>
-            </div>
-            <div class="row">
-                <div class="panel panel-default">
-                    <div class="panel-heading"><span style="font-weight:bold">Full outline</span></div>
-                    <div class="panel-body">
-                        <textarea class="col-md-12" ng-model="fullCaption"></textarea>
-                        <button class="btn btn-default pull-right" ng-click="refreshFull()">Refresh</button>
+        </div>
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading"><span style="font-weight:bold">Detected Persons</span></div>
+                <div class="panel-body">
+                    <div ng-repeat="step in viewData.Celebs">
+                        <span ng-repeat="item in step" ng-if="item.Name != 'nicht erkannt'">{{item.Name}}</span>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading"><span style="font-weight:bold">Not detected Persons</span></div>
+                <div class="panel-body">
+                    <div ng-repeat="step in viewData.Celebs">
+                        <img ng-repeat="item in step" data-ng-src="data:image/jpg;base64,{{item.Img64}}" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading"><span style="font-weight:bold">Full outline</span></div>
+                <div class="panel-body">
+                    <textarea class="col-md-12" ng-model="fullCaption"></textarea>
+                    <button class="btn btn-default pull-right" ng-click="refreshFull()">Refresh</button>
+                </div>
+            </div>
+        </div>
+
     </div>
+</div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-    <script src="https://code.angularjs.org/1.5.7/angular-route.js"></script>
-    <script src="//amp.azure.net/libs/amp/1.7.4/azuremediaplayer.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="https://code.angularjs.org/1.5.7/angular-route.js"></script>
+<script src="//amp.azure.net/libs/amp/1.7.4/azuremediaplayer.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-    <script src="../../assets/js/ngdialog.min.js" type="text/javascript"></script>
-    <script src="../../assets/js/app.js" type="text/javascript"></script>
-    <script src="../../assets/js/editorController.js" type="text/javascript"></script>
-    <script src="../../assets/js/timelineMarkers.js" type="text/javascript"></script>
+<script src="../../assets/js/ngdialog.min.js" type="text/javascript"></script>
+<script src="../../assets/js/app.js" type="text/javascript"></script>
+<script src="../../assets/js/editorController.js" type="text/javascript"></script>
+<script src="../../assets/js/timelineMarkers.js" type="text/javascript"></script>

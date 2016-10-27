@@ -53,8 +53,7 @@ namespace HackthonBGWorker
                 var workingDir = Path.Combine(System.IO.Path.GetTempPath(), Guid.NewGuid().ToString("N"));
                 var fullDownloadPath = System.IO.Path.Combine(workingDir, audioFile);
                 Directory.CreateDirectory(workingDir);
-                //if (File.Exists(fullDownloadPath))
-                //    File.Delete(fullDownloadPath);
+                
                 file.DownloadToFile(fullDownloadPath, FileMode.Create);
                 addStatusToQueue(storageAccount, JobStatus.Processing, "AudioFile downloaded");
                 var wavFile = convertToWav(fullDownloadPath);
@@ -84,6 +83,9 @@ namespace HackthonBGWorker
                 {
                     addStatusToQueue(storageAccount, JobStatus.Warning, "Entity and Keyword extraction failed");
                 }
+
+                // Analyse Pictures
+                result.Celebs = await FaceAndCelebDetection.AnalysePictures(containerName);
                 var urisas = UploadResultAndSetPublic(container, result);
                 //Getting Lazy  Friday afternoon
                 SetContainerPublic(container);
