@@ -2,18 +2,6 @@
   "$schema": "http://schemastore.org/schemas/json/webjobs-list.json",
   "WebJobs": [
     {
-      "filePath": "../soxjob/soxjob.csproj"
-    },
-    {
-      "filePath": "../SpeechToText/SpeechToText.csproj"
-    },
-    {
-      "filePath": "../ttsjob/ttsjob.csproj"
-    },
-    {
-      "filePath": "../audioJob/audioJob.csproj"
-    },
-    {
       "filePath": "../HackthonBGWorker/HackthonBGWorker.csproj"
     }
   ]
