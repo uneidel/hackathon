@@ -36,17 +36,17 @@ This Sample Code contains a Azure AppService containing an ASP.net WebSite(inclu
 
  ###Neccessary Configuration:
  
- Hackathon web.config: 
- <add key="MediaServicesAccountName"			value=""/>
- <add key="MediaServicesAccountKey"				value=""/>
- <add key="MediaServicesStorageAccountName"		value="" />
- <add key="MediaServicesStorageAccountKey"		value="" />
+ ####Hackathon web.config: 
+ add key="MediaServicesAccountName" value=""/>       
+ add key="MediaServicesAccountKey" value=""/>       
+ add key="MediaServicesStorageAccountName" value="" />      
+ add key="MediaServicesStorageAccountKey" value="" />      
 
- #HackathonnBGWorker app.config:
- <add key="languageCode" value="de-de" />
- <add key="ttsSubscriptionKey" value="" />
- <add key="TextAnalysisKey" value="" />
- <add key="EntityLinkingKey" value=""/>
+ ####HackathonBGWorker app.config:
+ add key="languageCode" value="de-de" />      
+ add key="ttsSubscriptionKey" value="" />      
+ add key="TextAnalysisKey" value="" />      
+ add key="EntityLinkingKey" value=""/>     
 
 
  ###Download FFMPeg from https://www.ffmpeg.org and place it into HackathonnBGWorker Tools Folder (Please set Copy if newer -> Always) 
