@@ -85,7 +85,10 @@ namespace HackthonBGWorker
                 }
 
                 // Analyse Pictures
-                result.Celebs = await FaceAndCelebDetection.AnalysePictures(containerName);
+                if (!String.IsNullOrEmpty(CloudConfigurationManager.GetSetting("faceapikey")))
+                {
+                    result.Celebs = await FaceAndCelebDetection.AnalysePictures(containerName);
+                }
                 var urisas = UploadResultAndSetPublic(container, result);
                 //Getting Lazy  Friday afternoon
                 SetContainerPublic(container);
