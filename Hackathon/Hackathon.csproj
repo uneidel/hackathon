@@ -270,6 +270,7 @@
     <Content Include="assets\css\ngDialog-theme-flat.css" />
     <Content Include="assets\css\ngDialog.css" />
     <Content Include="assets\js\app.js" />
+    <Content Include="assets\js\blobUpload.js" />
     <Content Include="assets\js\editorController.js" />
     <Content Include="assets\js\timelineMarkers.js" />
     <Content Include="Content\bootstrap.css" />
@@ -301,6 +302,8 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="assets\js\ngdialog.min.js" />
+    <Content Include="assets\js\ngfileupload.min.js" />
+    <Content Include="assets\js\ngfileupload.shim.min.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
