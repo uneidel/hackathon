@@ -30,19 +30,19 @@ namespace HackthonBGWorker
         static CloudStorageAccount storageAccount = null;
         public async static void ProcessQueueMessage([QueueTrigger("postprocessqueue")] string encodedMessage, TextWriter log)
         {
-			var message = Base64.ToString(encodedMessage);
-            //message contains containername of Blob Storage
-            log.WriteLine(message);
-            var paket = JObject.Parse(message);
-            var IncomingUrl = Convert.ToString(paket["IncomingUrl"]);
-            var AssetUrl = Convert.ToString(paket["AssetUrl"]);
-            var LocatorUrl = Convert.ToString(paket["LocatorUrl"]);
-            var containerName = AssetUrl.Substring(AssetUrl.LastIndexOf("/") + 1);
-            
             try
             {
-                // Access *.manifest.xml for concrete Filenames
-                storageAccount = CloudStorageAccount.Parse(ConfigurationManager.ConnectionStrings["AzureWebJobsStorage"].ConnectionString);
+				var message = Base64.ToString(encodedMessage);
+				//message contains containername of Blob Storage
+				log.WriteLine(message);
+				var paket = JObject.Parse(message);
+				var IncomingUrl = Convert.ToString(paket["IncomingUrl"]);
+				var AssetUrl = Convert.ToString(paket["AssetUrl"]);
+				var LocatorUrl = Convert.ToString(paket["LocatorUrl"]);
+				var containerName = AssetUrl.Substring(AssetUrl.LastIndexOf("/") + 1);
+
+				// Access *.manifest.xml for concrete Filenames
+				storageAccount = CloudStorageAccount.Parse(ConfigurationManager.ConnectionStrings["AzureWebJobsStorage"].ConnectionString);
 
                 // Create the blob client.
                 CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
@@ -100,6 +100,7 @@ namespace HackthonBGWorker
             }
             catch (Exception ex)
             {
+				Debug.WriteLine(ex.ToString());
                 addStatusToQueue(storageAccount, JobStatus.Error, ex.ToString());
             }
         }
@@ -148,7 +149,7 @@ namespace HackthonBGWorker
         {
             var fileName = Path.GetFileNameWithoutExtension(fullPath);
             var path = Path.GetDirectoryName(fullPath);
-            var newFileName = $"{path}/{fileName}.wav";
+            var newFileName = $"{path}\\{fileName}.wav";
             using (var reader = new MediaFoundationReader(fullPath))
             {
                 WaveFileWriter.CreateWaveFile(newFileName, reader);

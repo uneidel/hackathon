@@ -82,7 +82,7 @@ namespace HackthonBGWorker
                     currentPos = list[i];
                 }
             }
-            cuepoints.Add(list.Last());
+            cuepoints.Add(list.Last()>0 ? list.Last() : list.Last()*-1);
             return cuepoints;
         }
         private static List<double> ParseOutput(StringBuilder sb)
@@ -126,7 +126,7 @@ namespace HackthonBGWorker
             StringBuilder error = new StringBuilder();
             using (Process process = new Process())
             {
-                process.StartInfo.FileName = @"C:\tools\ffmpeg.exe";
+                process.StartInfo.FileName = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), @"tools\ffmpeg.exe");
                 process.StartInfo.Arguments = String.Format("-i {0} -af silencedetect=noise=-10dB:d=0.2 -f null -", fullPath);
                 process.StartInfo.UseShellExecute = false;
                 process.StartInfo.RedirectStandardOutput = true;
