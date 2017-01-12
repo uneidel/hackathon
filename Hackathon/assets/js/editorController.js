@@ -9,7 +9,7 @@
         if (url === null)
             alert("Provide url to public available Movie");
         $scope.isProcessDisabled = true;
-        $scope.InitVideoEncoding("=" + url);
+        $scope.InitVideoEncoding(url);
         $scope.Workingstatus.push("Creating Asset Folder");
 
     };
@@ -84,8 +84,9 @@
     }
     $scope.InitVideoEncoding = function(urltovideo)
     {   
-        var config = { headers: {'Content-Type': 'application/x-www-form-urlencoded'}};
-        $http.post('/api/mediaservices', urltovideo, config)
+        var config = { headers: { 'Content-Type': 'application/x-www-form-urlencoded' } };
+        var urlEncodedUrlToVideo = "="+encodeURIComponent(urltovideo);
+        $http.post('/api/mediaservices', urlEncodedUrlToVideo, config)
             .success(function (data, status, headers, config) {
                 $scope.Workingstatus.push("Encoding Started");
                 $scope.Workingstatus.push("encoding");

@@ -183,8 +183,16 @@ namespace Hackathon.Controllers
             var assetName = "Hackathon_" + DateTime.UtcNow.ToString();
             var asset = _context.Assets.Create(assetName, AssetCreationOptions.None);
 
-            var fileName = url.Substring(url.LastIndexOf("/") + 1);
-            string containerName = String.Format("asset-{0}", asset.Id.Substring(asset.Id.IndexOf("UUID:") + 5)); // Find out how to handle in a more elegant way
+			string fileName = "";
+			if (url.IndexOf('?') != -1)
+			{
+				fileName = url.Substring(url.LastIndexOf("/") + 1, url.IndexOf('?') - url.LastIndexOf("/") - 1);
+			}
+			else
+			{
+				fileName = url.Substring(url.LastIndexOf("/") + 1);
+			}
+			string containerName = String.Format("asset-{0}", asset.Id.Substring(asset.Id.IndexOf("UUID:") + 5)); // Find out how to handle in a more elegant way
             var assetFile = asset.AssetFiles.Create(fileName);
             //Console.WriteLine("Created assetFile {0}", assetFile.Name);
 
