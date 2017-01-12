@@ -30,7 +30,7 @@
                 $scope.Workingstatus.push("Encoding finished");
                 // Now start PostProcessing
                 $scope.Workingstatus.push("Postprocessing will be started.");
-                var paket = { IncomingUrl: $scope.inputurl, AssetUrl: data.AssetUri, LocatorUrl: data.UrlSmooth };
+                var paket = { IncomingUrl: encodeURIComponent($scope.inputurl), AssetUrl: data.AssetUri, LocatorUrl: data.UrlSmooth };
                 $scope.InitPostProcessing("=" + JSON.stringify(paket));
             }
         }, function (data) {

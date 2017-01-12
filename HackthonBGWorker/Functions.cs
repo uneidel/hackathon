@@ -19,6 +19,7 @@ using Newtonsoft.Json;
 using System.Configuration;
 using System.Xml;
 using Newtonsoft.Json.Linq;
+using Base64Url;
 
 namespace HackthonBGWorker
 {
@@ -27,8 +28,9 @@ namespace HackthonBGWorker
         // This function will get triggered/executed when a new message is written 
         // on an Azure Queue called queue.
         static CloudStorageAccount storageAccount = null;
-        public async static void ProcessQueueMessage([QueueTrigger("postprocessqueue")] string message, TextWriter log)
+        public async static void ProcessQueueMessage([QueueTrigger("postprocessqueue")] string encodedMessage, TextWriter log)
         {
+			var message = Base64.ToString(encodedMessage);
             //message contains containername of Blob Storage
             log.WriteLine(message);
             var paket = JObject.Parse(message);
