@@ -9,7 +9,7 @@
         if (url === null)
             alert("Provide url to public available Movie");
         $scope.isProcessDisabled = true;
-        $scope.InitVideoEncoding("=" + url);
+        $scope.InitVideoEncoding(url);
         $scope.Workingstatus.push("Creating Asset Folder");
 
     };
@@ -30,7 +30,7 @@
                 $scope.Workingstatus.push("Encoding finished");
                 // Now start PostProcessing
                 $scope.Workingstatus.push("Postprocessing will be started.");
-                var paket = { IncomingUrl: $scope.inputurl, AssetUrl: data.AssetUri, LocatorUrl: data.UrlSmooth };
+                var paket = { IncomingUrl: encodeURIComponent($scope.inputurl), AssetUrl: data.AssetUri, LocatorUrl: data.UrlSmooth };
                 $scope.InitPostProcessing("=" + JSON.stringify(paket));
             }
         }, function (data) {
@@ -84,8 +84,9 @@
     }
     $scope.InitVideoEncoding = function(urltovideo)
     {   
-        var config = { headers: {'Content-Type': 'application/x-www-form-urlencoded'}};
-        $http.post('/api/mediaservices', urltovideo, config)
+        var config = { headers: { 'Content-Type': 'application/x-www-form-urlencoded' } };
+        var urlEncodedUrlToVideo = "="+encodeURIComponent(urltovideo);
+        $http.post('/api/mediaservices', urlEncodedUrlToVideo, config)
             .success(function (data, status, headers, config) {
                 $scope.Workingstatus.push("Encoding Started");
                 $scope.Workingstatus.push("encoding");

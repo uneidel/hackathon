@@ -1,4 +1,5 @@
-﻿using Microsoft.WindowsAzure.Storage;
+﻿using Base64Url;
+using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Auth;
 using Microsoft.WindowsAzure.Storage.Queue;
 using System;
@@ -46,7 +47,8 @@ namespace Hackathon.Controllers
         {
             if (String.IsNullOrEmpty(value))
                 return;
-            CloudQueueMessage message = new CloudQueueMessage(value);
+			var encoded = Base64.GetBase64(value);
+            CloudQueueMessage message = new CloudQueueMessage(encoded);
             ppqueue.AddMessage(message);
         }
     }

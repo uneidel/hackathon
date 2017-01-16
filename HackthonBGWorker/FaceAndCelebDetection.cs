@@ -132,6 +132,10 @@ namespace HackthonBGWorker
             Bitmap bmpImage = new Bitmap(img);
             Bitmap newBitmap = bmpImage.Clone(r, bmpImage.PixelFormat);
 #if DEBUG
+			if(!Directory.Exists("c:\\temp"))
+			{
+				Directory.CreateDirectory("c:\\temp");
+			}
             newBitmap.GetThumbnailImage(150, 150, null, IntPtr.Zero).Save("c:\\temp\\celeb.jpg");
 
 #endif
@@ -167,8 +171,9 @@ namespace HackthonBGWorker
             CloudBlobContainer container = blobClient.GetContainerReference(containername);
             BlobContainerPermissions containerPermissions = new BlobContainerPermissions();
             containerPermissions.PublicAccess = BlobContainerPublicAccessType.Container;
-            // Loop over items within the container and output the length and URI.
-            foreach (IListBlobItem item in container.ListBlobs(null, false))
+			container.SetPermissions(containerPermissions);
+			// Loop over items within the container and output the length and URI.
+			foreach (IListBlobItem item in container.ListBlobs(null, false))
             {
                 if (item.GetType() == typeof(CloudBlockBlob))
                 {
