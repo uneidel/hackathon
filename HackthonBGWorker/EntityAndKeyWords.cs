@@ -29,7 +29,7 @@ namespace HackthonBGWorker
                 var e = result.DetectedPhrases[i];
                 totalString += e.Phrase.FirstOrDefault().Content;
                 count++;
-                if (count == 10 || i == (result.DetectedPhrases.Count-1))
+                if (count == 5 || i == (result.DetectedPhrases.Count-1))
                 {
                     r.documents.Add(new KeyPhraseDocument() { id = sid.ToString(), language = "de", text = totalString });
                     // 10 KB Limit so do it hier
@@ -80,7 +80,7 @@ namespace HackthonBGWorker
             client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key",
                 System.Configuration.ConfigurationManager.AppSettings["EntityLinkingKey"].ToString());
 
-            var uri = "https://api.projectoxford.ai/entitylinking/v1.0/link";
+            var uri = "https://westus.api.cognitive.microsoft.com/entitylinking/v1.0/link";
 
             HttpResponseMessage response;
             var json = JsonConvert.SerializeObject(r);
